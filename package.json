@@ -1,0 +1,29 @@
+{
+    "name": "node-cli-generator-project",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/KcirePunk/extes-nodejs-cli.git"
+    },
+    "author": "KcirePunk",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/KcirePunk/extes-nodejs-cli/issues"
+    },
+    "bin": {
+        "npm-cli": "./index.js"
+    },
+    "homepage": "https://github.com/KcirePunk/extes-nodejs-cli#readme",
+    "dependencies": {
+        "chalk": "^3.0.0",
+        "ejs": "^3.0.1",
+        "inquire": "^0.4.8",
+        "inquirer": "^7.0.3",
+        "shelljs": "^0.8.3"
+    }
+}
